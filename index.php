@@ -91,6 +91,7 @@
         // $result =  $mailSMTP->send('Кому письмо', 'Тема письма', 'Текст письма', 'Заголовки письма');
         if($result === true){
             //echo "ok2"; die();
+            $_SESSION['smarty']->assign('message_sent', 'yes');
         }else{
             echo "Письмо не отправлено. Ошибка: " . $result;
         }

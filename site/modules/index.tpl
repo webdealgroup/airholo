@@ -51,13 +51,23 @@
                 }
             </style>
         </noscript>
-
+        
+        <script src="/js/toastr/toastr.min.js"></script>
+        <script src="/js/toastr_configuration.js"></script>
 
         <style>
             .l_P_e{left:0;object-fit:cover;object-position:center;width:100%;z-index:0}
         </style>
+
     </head>
     <body class="home page-template-default page page-id-9 page-home" >
+
+        <script>
+            ~~if $message_sent == 'yes'~
+                toastr.success('Письмо отправлено');
+            ~~/if~
+        </script>
+
         <div class="wrapper">
             <header class="header header--fixed">
                 <div class="container">
