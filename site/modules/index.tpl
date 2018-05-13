@@ -51,7 +51,10 @@
                 }
             </style>
         </noscript>
+
+        <script src="/js/jquery.min.js"></script>
         
+        <link rel="stylesheet" href="/js/toastr/toastr.css">
         <script src="/js/toastr/toastr.min.js"></script>
         <script src="/js/toastr_configuration.js"></script>
 
@@ -62,7 +65,9 @@
     </head>
     <body class="home page-template-default page page-id-9 page-home" >
 
+        ~~*debug*~
         <script>
+            
             ~~if $message_sent == 'yes'~
                 toastr.success('Письмо отправлено');
             ~~/if~

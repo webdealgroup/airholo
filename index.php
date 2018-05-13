@@ -82,13 +82,18 @@
         $headers .= "Content-type: text/html; charset=utf-8\r\n"; // кодировка письма
         $headers .= "From: MAIL <mail@webdeal.group>\r\n"; // от кого письмо
         
+        
         $result =  $mailSMTP->send(
                                         'info@airholo.ru', 
                                         'Заказ airholo.ru', 
                                         $_SESSION['smarty']->fetch('mail.tpl'), 
                                         $headers
         ); // отправляем письмо
+        
+
         // $result =  $mailSMTP->send('Кому письмо', 'Тема письма', 'Текст письма', 'Заголовки письма');
+        
+        //$result = true;
         if($result === true){
             //echo "ok2"; die();
             $_SESSION['smarty']->assign('message_sent', 'yes');
