@@ -155,11 +155,12 @@
             </tr>
             ~~/foreach~
 
-            <tr>
+            ~~*<tr>
              <td style="font-family: 'Arial', sans-serif; font-size: 15px; line-height: 20px; color: #181818; text-align: left;" class="txt1">
               <p>Скачать файл:<span><a href="http://shtampovik.ru~~$uploadfile~">http://shtampovik.ru~~$uploadfile~</span></p>
              </td>
             </tr>
+            *~
 
             <!-- TEXT --> <!-- Spacing -->
             <tr>

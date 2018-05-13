@@ -31,12 +31,13 @@
         
         $message = array();
         $k = 0;
+
         foreach($_POST as $n=>$v)
         {
             if ($k>0)
             {
                 
-                if($n == 'day')
+                /*if($n == 'day')
                 {
                     $message[$k]['name'] = $n;
                     $message[$k]['txt'] = "1 день";
@@ -47,16 +48,16 @@
                     $message[$k]['txt'] = "1 час";
                 }
                 else
-                {
+                {*/
                     $message[$k]['name'] = $n;
                     $message[$k]['txt'] = $v;
 
-                }
+                //}
             }
             $k++;
         }
 
-        $uploaddir = '/var/www/html/shtampovik.ru/upload/';
+        /*$uploaddir = '/var/www/html/shtampovik.ru/upload/';
         $uploadfile = $uploaddir . basename($_FILES['my_filename']['name']);
 
         if (move_uploaded_file($_FILES['my_filename']['tmp_name'], $uploadfile)) {
@@ -66,11 +67,13 @@
         }
 
         $_SESSION['smarty']->assign('uploadfile', '/upload/'.basename($_FILES['my_filename']['name']));
+        */
+
         $_SESSION['smarty']->assign('message', $message);
 
         require_once "site/libs/SendMailSmtpClass.php"; // подключаем класс
          
-        $mailSMTP = new SendMailSmtpClass('mail@webdeal.group', 'HzBpHuLn', 'ssl://smtp.yandex.ru', 'штамповик.рф', 465);
+        $mailSMTP = new SendMailSmtpClass('mail@webdeal.group', 'HzBpHuLn', 'ssl://smtp.yandex.ru', 'airholo.ru', 465);
         // $mailSMTP = new SendMailSmtpClass('логин', 'пароль', 'хост', 'имя отправителя');
          
         // заголовок письма
@@ -80,8 +83,8 @@
         $headers .= "From: MAIL <mail@webdeal.group>\r\n"; // от кого письмо
         
         $result =  $mailSMTP->send(
-                                        '4999732707@mail.ru', 
-                                        'Заказ штамповик.рф', 
+                                        'info@airholo.ru', 
+                                        'Заказ airholo.ru', 
                                         $_SESSION['smarty']->fetch('mail.tpl'), 
                                         $headers
         ); // отправляем письмо

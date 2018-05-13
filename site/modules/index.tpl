@@ -547,7 +547,8 @@
             <div class="form form--bottom js-contact-form-2">
 
                 
-                <form action="" data-url="/email.php" autocomplete="off">
+                <form action="/" data-url="/" autocomplete="off" method="POST">
+                    <input type="hidden" name="send_msg" value="true">
                     <input type="hidden" name="client-type">
                     <div class="container">
                         <div class="form__title">
