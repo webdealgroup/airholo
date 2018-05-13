@@ -620,13 +620,13 @@
                                                 <div class="form-row">
                                                     <select name="describe" data-name="Option" class="js-dropdown-box js-buyer-select"
                                                     data-placeholder="Выберите пункт">
-                                                        <option value="Retailer">Розничная торговля</option>
-                                                        <option value="Bar / Night club / Restaurant">Бар / Ночной клуб / Ресторан </option>
-                                                        <option value="Advertising agency">Рекламное агентство</option>
-                                                        <option value="Manufacturer">Производство</option>
-                                                        <option value="Gaming">Игры</option>
-                                                        <option value="Personal use">Личное использование</option>
-                                                        <option value="Other">Другое</option>
+                                                        <option value="Розничная торговля">Розничная торговля</option>
+                                                        <option value="Бар / Ночной клуб / Ресторан ">Бар / Ночной клуб / Ресторан </option>
+                                                        <option value="Рекламное агентство">Рекламное агентство</option>
+                                                        <option value="Производство">Производство</option>
+                                                        <option value="Игры">Игры</option>
+                                                        <option value="Личное использование">Личное использование</option>
+                                                        <option value="Другое">Другое</option>
                                                     </select>
                                                 </div>
                                             </div>
