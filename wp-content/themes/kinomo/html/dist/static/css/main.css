@@ -454,7 +454,7 @@ b{font-weight:400;font-style:normal}
 .footer__main,.header__btn{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox}
 .header__nav ._list li{margin-right:30px}
 .header__nav ._list li:last-child{margin-right:0}
-.header__nav ._list li ._link{color:#c1c1c1;font-size:20px;line-height:26px}
+.header__nav ._list li ._link{color:#515151;font-size:20px;line-height:26px}
 @media(min-width:1099px) and (max-width:1459px){.header__nav ._list li ._link{font-size:16px}
 }
 .header__nav ._list li ._link:hover{color:#fff}
