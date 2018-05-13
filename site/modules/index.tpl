@@ -151,11 +151,11 @@
 
                                 
                                 <button class="btn btn-blue btn-small js-scroll-down" data-id="contact-us" style="margin:20px auto 0px;    padding: 8px 15px;     line-height: 20px;">
-                                    Переключает внимание от конкурентов к вашей компании
+                                    Захватывает внимание
                                 </button>
 
                                 <button class="btn btn-blue btn-small js-scroll-down" data-id="contact-us" style="margin:20px auto;    padding: 8px 15px;    line-height: 20px;">
-                                    Показывает инновационность и современность
+                                    Повышает статус компании
                                 </button>
 
                         </div>
