@@ -78,6 +78,7 @@
                                                     $('#myvideo002')[0].play();
                                                     $('#myvideo003')[0].play();
                                                     $('#myvideo004')[0].play();
+                                                    $('#myvideo005')[0].play();
 
                                                 }
 
@@ -237,7 +238,10 @@
                         </video>
                     </div>
                     <div class="gallery__item">
-                        <img src="/wp-content/themes/kinomo/html/dist/content/images/gallery/img_05.jpg" alt="">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo005">
+                            <source src="/video/005.webm" type="video/webm"/>
+                            <source src="/video/005.mp4" type="video/mp4"/>
+                        </video>
                     </div>
 
                     <div class="gallery__item">
