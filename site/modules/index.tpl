@@ -930,21 +930,22 @@
                 <div class="review">
                     <div class="review__inner">
 
+
                         <div class="review__item">
                             <div class="_text">
-                                &quot;ЭТО БУДУЩЕЕ ДИСПЛЕЕВ В РОЗНИЧНОЙ ТОРГОВЛЕ!&quot;
+                                &quot;Невероятно цветное и реалистичное отображение HYPERVSN™ позволяет поверить что голограммы реальны.&quot;
                             </div>
                             <div class="_name">
-                                MASHABLE
+                                USA TODAY
                             </div>
                             <div class="_label"></div>
                         </div>
                         <div class="review__item">
                             <div class="_text">
-                                &quot;Невероятно цветное и реалистичное отображение HYPERVSN™ позволяет поверить что голограммы наконец реальны.&quot;
+                                &quot;Благодаря kino-mo голограммы могут получить широкое распространение&quot;
                             </div>
                             <div class="_name">
-                                USA TODAY
+                                FINANCIAL TIMES
                             </div>
                             <div class="_label"></div>
                         </div>
@@ -957,15 +958,7 @@
                             </div>
                             <div class="_label"></div>
                         </div>
-                        <div class="review__item">
-                            <div class="_text">
-                                &quot;Благодаря kino-mo голография может получить широкое распространение&quot;
-                            </div>
-                            <div class="_name">
-                                FINANCIAL TIMES
-                            </div>
-                            <div class="_label"></div>
-                        </div>
+
 
                     </div>
                 </div>
@@ -1115,9 +1108,10 @@
                             <div class="_item">
                                 <div class="footer__address">
                                     <br>
-                                    127055
+                                    127055, Москва
                                     <br>
-                                    Москва
+                                    ООО "Веб Дил Групп" - официальный представитель
+                                    
                                 </div>
                             </div>
 
@@ -1127,6 +1121,7 @@
 
                             <div class="_item">
                                 <span class="footer__phone footer__action">+7 906 0522430</span>
+                                <span class="footer__phone footer__action">+7 499 1307946</span>
                             </div>
                         </div>
                     </div>
