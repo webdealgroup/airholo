@@ -905,6 +905,21 @@
                                 </li>
                             </ul>
                         </div>
+
+                        <div class="years__item">
+                            <div class="_year">
+                                2018
+                            </div>
+                            <ul class="_list">
+                                <li>
+                                    Hypervsn ™ официально представлен в России
+                                </li>
+
+                                <li>
+                                    Первые поставки оборудования в Москву 19 мая 2018 г.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
