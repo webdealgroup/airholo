@@ -232,8 +232,8 @@
 
                     <div class="gallery__item">
                         <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo004">
-                            <source src="/video/003.webm" type="video/webm"/>
-                            <source src="/video/003.mp4" type="video/mp4"/>
+                            <source src="/video/004.webm" type="video/webm"/>
+                            <source src="/video/004.mp4" type="video/mp4"/>
                         </video>
                     </div>
                     <div class="gallery__item">
