@@ -197,7 +197,7 @@
                                 </button>
 
                                 <button class="btn btn-blue btn-small js-scroll-down" data-id="contact-us" style="margin:20px auto;    padding: 8px 15px;    line-height: 20px;">
-                                    Повышает статус компании
+                                    Усиливает влияние бренда
                                 </button>
 
                         </div>
