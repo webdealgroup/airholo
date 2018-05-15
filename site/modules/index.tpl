@@ -52,15 +52,38 @@
             </style>
         </noscript>
 
-        <script src="/js/jquery.min.js"></script>
-        
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="/js/jquery.viewportchecker.min.js"></script>
+
         <link rel="stylesheet" href="/js/toastr/toastr.css">
         <script src="/js/toastr/toastr.min.js"></script>
         <script src="/js/toastr_configuration.js"></script>
+        
 
         <style>
             .l_P_e{left:0;object-fit:cover;object-position:center;width:100%;z-index:0}
         </style>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                        
+                    
+
+                        $('.gallery').viewportChecker({
+
+                                callbackFunction: function(elem, action){ 
+
+                                                    console.log('ok');
+                                                    $('#myvideo001')[0].play();
+                                                    $('#myvideo002')[0].play();
+                                                    $('#myvideo003')[0].play();
+
+                                                }
+
+                        });
+                    });
+
+                  </script>
 
     </head>
     <body class="home page-template-default page page-id-9 page-home" >
@@ -182,16 +205,28 @@
                     </div>
                 </div>
 
+
+
+
                 <div class="gallery">
                     <div class="gallery__item">
-                        <img src="/wp-content/themes/kinomo/html/dist/content/images/gallery/img_01.jpg" alt="">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo001">
+                            <source src="/video/001.webm" type="video/webm"/>
+                            <source src="/video/001.mp4" type="video/mp4"/>
+                        </video>
                     </div>
 
                     <div class="gallery__item">
-                        <img src="/wp-content/themes/kinomo/html/dist/content/images/gallery/img_02.jpg" alt="">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo002">
+                            <source src="/video/002.webm" type="video/webm"/>
+                            <source src="/video/002.mp4" type="video/mp4"/>
+                        </video>
                     </div>
                     <div class="gallery__item">
-                        <img src="/wp-content/themes/kinomo/html/dist/content/images/gallery/img_03.jpg" alt="">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo003">
+                            <source src="/video/003.webm" type="video/webm"/>
+                            <source src="/video/003.mp4" type="video/mp4"/>
+                        </video>
                     </div>
 
                     <div class="gallery__item">
@@ -206,10 +241,21 @@
                     </div>
                 </div>
 
+                <script> 
+                    
+
+                    $('.gallery').on('afterChange', function(event, slick, currentSlide){ 
+                      if (currentSlide == 0) { 
+                        $('.gallery').slick('slickPause'); $('#myvideo')[0].play(); 
+                      } 
+                    });
+                </script>
+
+
                 <div class="simple" id="how-it-works">
                     <div class="container">
                         <div class="simple__title">
-                            <h2>Просто. Интуитивно. Тонко. </h2>
+                            <h2>Просто. Интуитивно. Умно. </h2>
                         </div>
 
                         <div class="simple__desc">
