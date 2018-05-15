@@ -79,6 +79,8 @@
                                                     $('#myvideo003')[0].play();
                                                     $('#myvideo004')[0].play();
                                                     $('#myvideo005')[0].play();
+                                                    $('#myvideo006')[0].play();
+                                                    $('#myvideo007')[0].play();
 
                                                 }
 
@@ -245,7 +247,17 @@
                     </div>
 
                     <div class="gallery__item">
-                        <img src="/wp-content/themes/kinomo/html/dist/content/images/gallery/img_06.jpg" alt="">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo006">
+                            <source src="/video/006.webm" type="video/webm"/>
+                            <source src="/video/006.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+
+                    <div class="gallery__item">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo007">
+                            <source src="/video/007.webm" type="video/webm"/>
+                            <source src="/video/007.mp4" type="video/mp4"/>
+                        </video>
                     </div>
                 </div>
 
