@@ -81,6 +81,7 @@
                                                     $('#myvideo005')[0].play();
                                                     $('#myvideo006')[0].play();
                                                     $('#myvideo007')[0].play();
+                                                    $('#myvideo008')[0].play();
 
                                                 }
 
@@ -257,6 +258,13 @@
                         <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo007">
                             <source src="/video/007.webm" type="video/webm"/>
                             <source src="/video/007.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+
+                    <div class="gallery__item">
+                        <video data-automation="HomepageHero_heroVideo_video" loop="loop" muted="muted" autoplay="autoplay" id="myvideo008">
+                            <source src="/video/008.webm" type="video/webm"/>
+                            <source src="/video/008.mp4" type="video/mp4"/>
                         </video>
                     </div>
                 </div>
