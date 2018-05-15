@@ -8,7 +8,7 @@
         <meta name="yandex-verification" content="a88e6767a9f0fe6e" />
         <meta name="yandex-verification" content="4c056c11186fdd02" />
         
-        <title> Hypervsn™ от Kino-mo &raquo; Купить подлинный Hypervsn™ от Kino-mo, Москва</title>
+        <title> Подлинный Hypervsn™ от Kino-mo в Москве +7(499)1307946</title>
 
         <link rel="stylesheet" href="/wp-content/themes/kinomo/html/dist/static/css/main.css">
         <link rel="stylesheet" href="/wp-content/themes/kinomo/css/custom.css?v=11.2">
