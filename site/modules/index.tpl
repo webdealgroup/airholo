@@ -7,18 +7,17 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="yandex-verification" content="a88e6767a9f0fe6e" />
         <meta name="yandex-verification" content="4c056c11186fdd02" />
-        
-        <title> Подлинный Hypervsn™ от Kino-mo в Москве +7(499)1307946</title>
+       
+        <title>Оригинальный Hypervsn™ от Kino-mo в Москве +7(499)1307946</title>
+
+        <meta name="description" content="Официальный представитель kino-mo в Москве. Продажа оригинальных Hypervsn голографических LED мониторов. " />
+        <meta name="keywords" content="Kino-mo, kinomo, hypervsn, киномо, аирхоло, голографические дисплеи, голографические мониторы, hypervsn купить в Москве" />
 
         <link rel="stylesheet" href="/wp-content/themes/kinomo/html/dist/static/css/main.css">
         <link rel="stylesheet" href="/wp-content/themes/kinomo/css/custom.css?v=11.2">
 
         <link rel="shortcut icon" href="/wp-content/themes/kinomo/html/dist/static/images/meta/favicon.png"
         type="image/png">
-
-        <script type="text/javascript">
-            var ajaxurl = '/wp-admin/admin-ajax.php';
-        </script>
 
         <!-- This site is optimized with the Yoast SEO plugin v6.2 - https://yoa.st/1yg?utm_content=6.2 -->
         <link rel="canonical" href="/" />
