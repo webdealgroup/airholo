@@ -1094,7 +1094,7 @@
                             <div class="_item">
                                 <div class="footer__address">
                                     <br>
-                                    127055, Москва
+                                    Москва, Пресненская набережная, 12
                                     <br>
                                     ООО "Веб Дил Групп" - официальный представитель
                                     
@@ -1106,8 +1106,8 @@
                             </div>
 
                             <div class="_item">
-                                <span class="footer__phone footer__action">+7 906 0522430</span>
                                 <span class="footer__phone footer__action">+7 499 1307946</span>
+                                <span class="footer__phone footer__action">+7 906 0522430</span>
                             </div>
                         </div>
                     </div>
