@@ -16,33 +16,12 @@
         <link rel="stylesheet" href="/wp-content/themes/kinomo/html/dist/static/css/main.css">
         <link rel="stylesheet" href="/wp-content/themes/kinomo/css/custom.css?v=11.2">
 
-        <link rel="shortcut icon" href="/wp-content/themes/kinomo/html/dist/static/images/meta/favicon.png"
-        type="image/png">
+        <link rel="shortcut icon" href="/wp-content/themes/kinomo/html/dist/static/images/meta/favicon.png" type="image/png">
 
-        <!-- This site is optimized with the Yoast SEO plugin v6.2 - https://yoa.st/1yg?utm_content=6.2 -->
-        <link rel="canonical" href="/" />
-        <meta property="og:locale" content="en_GB" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Home page - Hypervsn™ by Kino-mo" />
-        <meta property="og:url" content="/" />
-        <meta property="og:site_name" content=" Hypervsn™ by Kino-mo" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Home page - Hypervsn™ by Kino-mo" />
-        <script type='application/ld+json'>
-            {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/kinomo.online\/","name":" Hypervsn\u2122 by Kino-mo","potentialAction":{"@type":"SearchAction","target":"https:\/\/kinomo.online\/?s={search_term_string}","query-input":"required name=search_term_string"}
-            }
-        </script>
-        <!-- / Yoast SEO plugin. -->
-
-        <link rel='dns-prefetch' href='//s.w.org' />
         <link rel='stylesheet' id='contact-form-7-css'  href='/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-layout-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css' type='text/css' media='all' />
         <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
         <link rel='stylesheet' id='woocommerce-general-css'  href='/wp-content/plugins/woocommerce/assets/css/woocommerce.css' type='text/css' media='all' />
-        <link rel='https://api.w.org/' href='/wp-json/' />
-        <link rel='shortlink' href='/' />
-        <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkino-mo.com%2F" />
-        <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkino-mo.com%2F&#038;format=xml" />
         <noscript>
             <style>
                 .woocommerce-product-gallery {
