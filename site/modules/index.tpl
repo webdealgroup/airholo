@@ -8,7 +8,7 @@
         <meta name="yandex-verification" content="a88e6767a9f0fe6e" />
         <meta name="yandex-verification" content="4c056c11186fdd02" />
        
-        <title>Оригинальный Hypervsn™ от Kino-mo в Москве +7(499)1307946</title>
+        <title>Оригинальный Hypervsn ™ от Kino-mo в Москве +7(499)1307946</title>
 
         <meta name="description" content="Официальный представитель kino-mo в Москве. Продажа оригинальных Hypervsn голографических LED мониторов. " />
         <meta name="keywords" content="Kino-mo, kinomo, hypervsn, киномо, аирхоло, голографические дисплеи, голографические мониторы, hypervsn купить в Москве" />
@@ -160,6 +160,9 @@
                             <div class="_img">
                                 <img src="/wp-content/themes/kinomo/html/dist/content/images/hypervsn-big.png" alt="">
                             </div>
+
+                            
+                            <h1 style="margin:30px 15px;">Hypervsn от kino-mo. Оригинальные голографические мониторы в Москве.</h1>
 
                             <div class="_title">
                                 <span style="background:#328efe;color:white;">НОВОЕ СЛОВО</span> В МИРЕ МАРКЕТИНГА И РЕКЛАМЫ
